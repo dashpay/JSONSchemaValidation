@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.license = 'MIT'
 
   s.requires_arc = true
-  s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.9'
+  s.ios.deployment_target = '11.0'
+  s.osx.deployment_target = '10.13'
 
   s.source_files = 'DSJSONSchemaValidation/**/*.{h,m}'
 end
